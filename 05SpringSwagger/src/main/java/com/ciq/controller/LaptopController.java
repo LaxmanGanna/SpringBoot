@@ -39,7 +39,5 @@ public class LaptopController {
 	public Laptop findByid(@PathVariable Integer lid) {
 		return dao.getById(lid);
 		
-   
-		
 	}
 }
